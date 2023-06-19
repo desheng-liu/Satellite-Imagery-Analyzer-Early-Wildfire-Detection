@@ -1,6 +1,7 @@
 # AI / ML Project At Lockheed Martin
 
-<sub>The AI/ML training model for wildfire and object detection is designed to analyze satellite imagery and detect instances of wildfires and objects within the images. It leverages cutting-edge technologies such as geoJSON, numpy, torch, kubernetes.client.models, and kfp_tekton to achieve accurate and efficient results.
+<sub>
+The AI/ML training model for wildfire and object detection is designed to analyze satellite imagery and detect instances of wildfires and objects within the images. It leverages cutting-edge technologies such as geoJSON, numpy, torch, kubernetes.client.models, and kfp_tekton to achieve accurate and efficient results.
 
 The model's workflow begins with the ingestion of satellite imagery data in geoJSON format. GeoJSON is a widely used format for storing geospatial data and provides essential information about the locations and features within the images. This data is processed using numpy, a powerful library for numerical computing, to extract relevant features and perform preprocessing tasks like image normalization and resizing.
 
