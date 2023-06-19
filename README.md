@@ -1,8 +1,9 @@
 # AI / ML Project At Lockheed Martin
 
 <sub>
-The AI/ML training model for wildfire and object detection is designed to analyze satellite imagery and detect instances of wildfires and objects within the images. It leverages cutting-edge technologies such as geoJSON, numpy, torch, kubernetes.client.models, and kfp_tekton to achieve accurate and efficient results. </sub>
-
+<div>
+The AI/ML training model for wildfire and object detection is designed to analyze satellite imagery and detect instances of wildfires and objects within the images. It leverages cutting-edge technologies such as geoJSON, numpy, torch, kubernetes.client.models, and kfp_tekton to achieve accurate and efficient results.
+  
 The model's workflow begins with the ingestion of satellite imagery data in geoJSON format. GeoJSON is a widely used format for storing geospatial data and provides essential information about the locations and features within the images. This data is processed using numpy, a powerful library for numerical computing, to extract relevant features and perform preprocessing tasks like image normalization and resizing.
 
 Next, the preprocessed data is fed into the torch framework, which is renowned for its capabilities in deep learning and neural network modeling. The model employs advanced convolutional neural networks (CNNs) to extract high-level features from the satellite imagery, enabling effective detection of wildfires and objects. The CNNs are trained using a combination of labeled datasets and techniques such as transfer learning to enhance their accuracy and generalization.
@@ -13,6 +14,8 @@ Finally, the kfp_tekton library comes into play to facilitate the pipeline orche
 
 The combined power of geoJSON, numpy, torch, kubernetes.client.models, and kfp_tekton enables the AI/ML training model for wildfire and object detection to deliver accurate and efficient results. It empowers researchers and stakeholders to effectively monitor and respond to wildfire incidents, as well as identify and track objects of interest within satellite imagery with a high level of precision.
 
+</div>
+</sub>
 
 TL:DR
 * The model analyzes satellite imagery in geoJSON format for wildfire and object detection.
