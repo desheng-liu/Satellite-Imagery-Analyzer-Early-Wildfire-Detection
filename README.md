@@ -15,10 +15,10 @@ The combined power of geoJSON, numpy, torch, kubernetes.client.models, and kfp_t
 </small>
 
 TL:DR
-*The model analyzes satellite imagery in geoJSON format for wildfire and object detection.
-*It uses numpy for data processing, including feature extraction, image normalization, and resizing.
-*Torch, a powerful deep learning framework, employs convolutional neural networks (CNNs) for accurate detection.
-*The model leverages labeled datasets and transfer learning for enhanced accuracy.
-*Kubernetes, along with kubernetes.client.models, manages distributed training jobs for scalability and resource optimization.
-*kfp_tekton facilitates pipeline orchestration, integrating with Tekton for seamless execution of preprocessing, training, evaluation, and deployment.
-*The model enables efficient monitoring and response to wildfires, as well as precise identification and tracking of objects in satellite imagery.
+* The model analyzes satellite imagery in geoJSON format for wildfire and object detection.
+* It uses numpy for data processing, including feature extraction, image normalization, and resizing.
+* Torch, a powerful deep learning framework, employs convolutional neural networks (CNNs) for accurate detection.
+* The model leverages labeled datasets and transfer learning for enhanced accuracy.
+* Kubernetes, along with kubernetes.client.models, manages distributed training jobs for scalability and resource optimization.
+* kfp_tekton facilitates pipeline orchestration, integrating with Tekton for seamless execution of preprocessing, training, evaluation, and deployment.
+* The model enables efficient monitoring and response to wildfires, as well as precise identification and tracking of objects in satellite imagery.
